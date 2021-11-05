@@ -1,0 +1,117 @@
+Instagram Coronavirus Image Codebook
+
+May 17, 2021
+
+
+Q1.  Does this image pertain to the coronavirus pandemic?
+1.	 Yes  (relevant)  Continue to Q2
+2.	No (not relevant)  Proceed to next image 
+
+
+Ignore all handles (@) for all coding
+
+Q2.  What is the category of the image:
+1.	 Photo of person (s) [Must have a real person (no drawing/art of people), NO text 
+2.	Captioned Photo (e.g., photos of texts.  As long as there is text, use this option; drawing/art of anything falls in this category; can be drawing depiction of a human).
+3.	Other   (no people, no humanized characters such as cartoon, no text)   Proceed to next image
+4.	Only Text - only text images (proceed to Q8)
+
+Q2A. Type of Human
+1.	Real human image
+2.	Humanized character (e.g., cartoon, robot, graphic of human)
+3.	Combination of real and humanized
+
+
+Q3.  Does this image associated with China (picture taken in China or mention China in any way; including Chinatown; Chinese elements)
+1.	Yes
+2.	No  
+
+If selected 1 for Q2 (Photo):
+
+Q4.  Is there a face covering in this photo (worn by someone).
+3.	 Yes
+4.	No  
+
+Q5. Is there at least one Asian in the photo 
+1.	Yes (If image is clearly taken in China or Asia)
+2.	No  (If you can’t tell)
+
+Q5A.  If yes to Q5, what type of Asian 
+1.	China /East Asia/South East Asia (Vietnam, Thailand, Cambodia)
+2.	India (or South Asia, Pakistan)
+3.	Cannot tell 
+
+
+Q6. How many people are in the photo? (type in the number; if more than 10 people then code “99”)
+
+Q7.  Is at least one of the people in the photo directly looking at the camera?
+1.	Yes
+2.	No
+
+
+
+
+
+Keep an eye out for any other variables we should code for that captures anti-Asian sentiment
+-	Facial expression 
+-	Stereotypical portrayal of Asian 
+o	Long pony tail
+o	“chink”
+
+
+
+Code the following for both photo and captioned text.
+
+Q8.  Is perceived threat of the coronavirus conveyed? 
+1.	Yes
+2.	No
+
+Perceived threat is an indication of the negative consequences of contracting coronavirus.  It can be conveyed as invoking fear, people panicking.  Generally, people wearing mask would convey threat.  Indication of coronavirus can be infectious, harmful, causing pain, leading to death. Overt and explicit danger to coronavirus. {If say coronavirus is mild symptoms, not deadly}
+
+
+
+Q9.  Is perceived susceptibility of the coronavirus conveyed?
+1.	Yes 
+2.	No
+
+Perceived susceptibility refers to a person’s perception of the risk of getting coronavirus. Normal people (not medical professional) wearing mask in daily life.   Or suggesting that Asian people can infect you. Or selfies; or people trying to avoid the disease.  From perspective of poster.
+
+
+Q9A. If yes to Q8 or Q9, can Asian infect you with coronavirus, or Asian responsible for the covid?
+1.	Yes 
+2.	No
+
+
+Q10.  Is a solution to prevent getting the coronavirus convey? 
+1.	Yes (if wearing masks; covering with scarf)
+2.	No  
+
+Q11.  Is the solution a recommendation from public health officials?  
+1.	Yes
+2.	No
+
+A public health solution includes hand washing, social distancing, avoiding crowds, avoid touching face, stay home when sick, cover your cough, masks.  
+
+
+Q12. Presence of conspiracy theory
+1.	Yes
+2.	No
+
+Q13.  Image of plague doctor costume – symbol of death and disease
+1.	Yes
+2.	No
+
+
+Check if any of the following is present:
+
+Q12A.  Gargling with beach will prevent/cure covid-19
+Q12B.  Chloroquine can cure Covid-19
+Q12C.  Getting the covid-19 vaccine will allow gov to track you (conspiracy theory)
+Q12C.  Shoes spread Covid-19
+Q12D. Covid-19 virus leaked from lab in China
+Q12E.  There is no coronavirus
+Q12F.  Rinsing your nose with saline will prevent coronavirus
+Q12G.  Heart – sunlight or hair dryer – will kill coronavirus
+Q12H. 5G network spreads Covid
+Q12I.  Bill Gates purposely caused the pandemic
+Q12J.   Other – write in 
