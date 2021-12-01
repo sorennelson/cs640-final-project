@@ -130,4 +130,5 @@ dmypy.json
 
 .DS_Store
 .idea/
-data/vgg_face_weights.h5
+
+saved_models/
