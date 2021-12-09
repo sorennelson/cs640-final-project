@@ -1,13 +1,56 @@
-# CS640 Project
+# CS640 Project-COVID-19 Instagram posts emotion detection in relation to images of East Asian people + Ethnicity Detection
 
-COVID-19 Instagram posts emotion detection (anger, fear, joy, and sadness) in relation to images of East Asian people. In this project, you will first predict the emotion in the Instagram posts that are in the file (Labeled_instagram_posts_related_to_covid.xlsx) in this directory. The posts are not annotated for emotion, but they are annotated for whether the image accompanying the post contains image of East Asian person. The description of the annotation can be found in the README_instagram_label.docx file in the directory (particularly, you only need to use Q5a that annotates whether the image contains an East Asian person—i.e., label 1). The images can be found by linking imagename column in this file to the picture in the images.zip file in the directory.
+## Team members
 
-You need to build a model for detecting emotion in the Instagram post. You will use emotion Twitter dataset [here](http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html) (without intensity label) to train the model for predicting emotion.
+ Qingyang Xu, Ge Gao, Hengwei Wang, Soren Nelson, Rishab Nayak
 
-Report the approach(es) you take for each of this task and your multi-class accuracy and per-class precision and recall for each emotion class (fear, anger, joy, and sadness) on the development set. You also need to apply your emotion detection model on the Instagram posts in Labeled_instagram_posts_related_to_covid.xlsx file and submit the file containing the predictions with your final project report. Note: For this project, the write-up has to include your analysis if there is a correlation between the presence of emotion (anger/fear) with the presence of East Asian person in the image (you can use the emotion predictions you have and the labels: label 1 in Q5a in Labeled_instagram_posts_related_to_covid.xlsx to measure this correlation).
+## Project Overview and Goal
 
-You will be graded based on your (a) presentation and (b) write up including the link to your code (shared through GitHub/Google Colab) and (c) your emotion predictions. Particularly, you will be graded on how do you think through the problem and whether the approach you do make sense for the problem and the data, and the insights you obtain. Bonus +10 points for the team that has the highest multi-class performance on the development set (provided there are more than 1 team choosing this project).
+This project is COVID-19 Instagram posts emotion detection (anger, fear, joy, and sadness) in relation to images of East Asian people. The basic task is to apply an emotion detection model trained on twitter dataset to instagram posts and examine the relation between emotion and the existence of East Asian people. The bonus task is to build a model for detecting whether there’s an Asian person in the instagram posts images.
 
-Bonus: another +20 points if you also build a model for detecting whether there’s an Asian person in the image. You can use method described in [this tutorial](https://nbviewer.org/github/krasserm/face-recognition/blob/master/face-recognition.ipynb?flush_cache=true) code to extract faces from the image and turn them into embeddings. You can then use the embedding of the extracted face to predict whether the face is that of an East Asian person or not (i.e., binary prediction). You can use labels from the training data (i.e., Q5a in Labeled_instagram_posts_related_to_covid.xlsx) to train this model and report 5-fold cross validation accuracy and precision and recall of your model for predicting that there is an East Asian person on the data. Or, you can train a model for predicting if a face is that of an East Asian person using labels from other dataset (and code) from [VMER](https://mivia.unisa.it/ethnicity-recognition-dataset/) or [UTKFace](https://susanqq.github.io/UTKFace/) and then use the trained model to make prediction and report the accuracy and precision and recall of your model for predicting that there is an East Asian person on the labeled data in Labeled_instagram_posts_related_to_covid.xlsx.
+## Dependencies
 
-<https://www.kaggle.com/acharyarupak391/vggfaceweights>
+Python 3.8+
+
+Jupyter notebook
+
+Pytorch 1.0+
+
+## How it Works
+
+The project includes:
+
+Data loading
+
+Feature engineering
+
+Model definition
+
+Model training
+
+Performance evaluation
+
+Emotion predicting
+
+## How to Run the Project
+
+**data folder**: 
+
+twitter folder includes 4 files for anger, fear, joy, and sadness emotion classification;
+
+instagram_data.csv/xlsx is the test data for basic emotion detection task
+            
+images folder includes images data for bonus task
+            
+processed_instagram_data.csv is the labelled image data
+            
+**plots folder**: loss-epoch and accuracy-epoch plots for twitter data(training data in emotion detection task)
+
+**classifier.ipynb**: notebook for emotion detection task: classifier notebook in master branch contains the best model we have; we created 'extra-models' branch and included our attempts with other models in the classifier.
+
+**ethnicity_recognition.ipynb**: notebook for ethnicity detection task
+
+instagram_labels.txt: a guide provided to understand features in instagram_data.csv/xlsx
+
+**instagram_predictions.txt**: classification result based on our best model for emotion detection task
+
