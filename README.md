@@ -6,15 +6,17 @@
 
 ## Project Overview and Goal
 
-This project is COVID-19 Instagram posts emotion detection (anger, fear, joy, and sadness) in relation to images of East Asian people. The basic task is to apply an emotion detection model trained on twitter dataset to instagram posts and examine the relation between emotion and the existence of East Asian people. The bonus task is to build a model for detecting whether there’s an Asian person in the instagram posts images.
+This project is COVID-19 Instagram posts emotion detection (anger, fear, joy, and sadness) in relation to images of East Asian people. The basic task is to apply an emotion detection model trained on twitter dataset to instagram posts and examine the relation between emotion and the existence of East Asian people. The bonus task is to build a model for detecting whether there is an Asian person in the instagram posts images.
 
 ## Dependencies
 
-Python 3.8+
+Python 3.8
 
 Jupyter notebook
 
 Pytorch 1.0+
+
+GPU recommended
 
 ## How it Works
 
@@ -22,7 +24,7 @@ The project includes:
 
 Data loading
 
-Feature engineering
+Feature engineering/Preprocessing
 
 Model definition
 
