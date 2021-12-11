@@ -54,5 +54,5 @@ processed_instagram_data.csv is the labelled image data
 
 instagram_labels.txt: a guide provided to understand features in instagram_data.csv/xlsx
 
-**instagram_predictions.txt**: classification result based on our best model for emotion detection task
+**final_instagram_predictions.txt**: classification result based on our best model for emotion detection task. Each line contains the dataset index of the prediction and the emotion.
 
