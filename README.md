@@ -8,6 +8,8 @@
 
 This project is COVID-19 Instagram posts emotion detection (anger, fear, joy, and sadness) in relation to images of East Asian people. The basic task is to apply an emotion detection model trained on twitter dataset to instagram posts and examine the relation between emotion and the existence of East Asian people. The bonus task is to build a model for detecting whether there is an Asian person in the instagram posts images.
 
+For a detailed description of the project and results see our [Final Report](COVID-19%20Instagram%20Emotion%20Detection%20-%20Project%20Report.pdf).
+
 ## Dependencies
 
 Python 3.8
@@ -52,7 +54,7 @@ processed_instagram_data.csv is the labelled image data
 
 **ethnicity_recognition.ipynb**: notebook for ethnicity detection task
 
-instagram_labels.txt: a guide provided to understand features in instagram_data.csv/xlsx
+**instagram_labels.txt**: a guide provided to understand features in instagram_data.csv/xlsx
 
 **final_instagram_predictions.txt**: classification result based on our best model for emotion detection task. Each line contains the dataset index of the prediction and the emotion.
 
